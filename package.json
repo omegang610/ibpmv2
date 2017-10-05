@@ -20,7 +20,7 @@
     "start": "ng serve",
     "start:hmr": "ng serve --hmr",
     "start:aot": "ng serve --aot",
-    "start:prod": "ng serve --prod",
+    "start:prod": "ng serve --host 0.0.0.0 --port 4200",
     "start:prod:aot": "ng serve --prod --aot",
     "build": "npm run clean:dist && ng build",
     "build:prod": "npm run build -- --prod",
